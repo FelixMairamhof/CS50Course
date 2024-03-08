@@ -1,0 +1,18 @@
+Times:
+
+10 simulations:  0m0.030s
+100 simulations:  0m0.031s
+1000 simulations:  0m0.039s
+10000 simulations:  0m0.122s
+100000 simulations:  0m1.111s
+1000000 simulations:  0m9.513s
+
+Questions:
+
+Which predictions, if any, proved incorrect as you increased the number of simulations?:
+- As the number of simulations increased, the execution time increased significantly. Initially, with a lower number of simulations, the time was negligible. However, beyond 1000 simulations, the time taken for execution grew notably, indicating a linear or near-linear increase in execution time as the number of simulations increased. This disproved the assumption of linear scalability or diminishing time impact as simulations increased.
+
+Suppose you're charged a fee for each second of compute time your program uses. After how many simulations would you call the predictions "good enough"?:
+- Considering the cost implications and diminishing returns in accuracy, I would label the predictions "good enough" around 1000 simulations. Beyond this point, the increase in simulation count exponentially increases execution time, leading to insignificant gains in prediction accuracy relative to the computational cost. The marginal improvements in accuracy don't justify the substantial increase in computational expenses beyond this threshold.
+
+Additional considerations might include the trade-off between computational cost and accuracy, taking into account real-world constraints, and any observable patterns or trends in the simulation results.

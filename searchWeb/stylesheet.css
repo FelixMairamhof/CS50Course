@@ -1,0 +1,62 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Header styles */
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Main styles */
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+form {
+    text-align: center;
+    margin-top: 50px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+}
+
+input[type="submit"],
+input[type="button"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    background-color: #e0e0e0;
+}

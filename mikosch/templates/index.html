@@ -1,0 +1,36 @@
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-green-700">
+  <h1 class="text-3xl font-bold text-center py-5 bg-green-900 rounded-3xl shadow-xl text-white m-3">
+    Drive2Gether
+  </h1>
+
+  <div>
+
+        {% for item in drivers %}
+        <form action="/" method="post">
+            <div class="text-center text-xl text-white my-5 bg-green-700 mx-16 rounded-xl shadow-xl flex justify-between">
+                <div class="ml-4" name="item">
+                  Name: {{ item['name'] }}
+                  <br>
+                  Location: {{ item['location'] }}
+                  <br>
+                  Time: {{ item['time'] }}
+                  <br>
+                  Seats: {{ item['seats'] }}
+                  <br>
+                </div>
+                <input class="text-black" type="text" placeholder="Be a passanger" name="passenger"></input>
+                <button type="submit" class="bg-green-800 hover:bg-green-900 px-8 rounded-3xl" name="enter">Enter</button>
+            </div>
+        </form>
+        {% endfor %}
+
+  </div>
+</body>
+</html>

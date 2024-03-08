@@ -1,0 +1,9 @@
+CSS properties:
+margin, background-color,border, padding, text-allign
+
+HTML tags:
+nav,div,a,ul,li,p,button,img,ol,h3
+
+use of bootstrap and JS:
+JS is used in one button that shows an email
+bootstrap is used in the navbar, the list and the progress bar

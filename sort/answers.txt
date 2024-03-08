@@ -1,0 +1,16 @@
+sort1 uses: Bubble sort
+random: 96s
+sort 34s
+
+How do you know?: Becazse with random numbers it is slow but with sorted number the fastest
+
+sort2 uses: Merge sort
+random: 30s
+sort: 28
+
+How do you know?: Is the fastest with random numbers
+
+sort3 uses: Selection sort
+random: 58s
+sort: 50s
+How do you know?: It is slow when numbers are sorted and isnt the fastest with random numbers

@@ -1,0 +1,2 @@
+This listener listens to us-songs and ami-rap
+To not show his top 100, instead show what genre he listens to and how long and wich songs the most
